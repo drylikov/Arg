@@ -310,8 +310,4 @@ Do the assertion yourself, such as:
 const args = arg({ '--name': String });
 
 if (!args['--name']) throw new Error('missing required argument: --name');
-```
-
-# License
-
-Released under the [MIT License](LICENSE.md).
+``
